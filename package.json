@@ -9,6 +9,12 @@
     "test": "ng test",
     "lint": "ng lint"
   },
+    "husky": {
+      "hooks": {
+        "pre-commit": "npm test",
+        "pre-push": "npm test"
+      }
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.0.0",
