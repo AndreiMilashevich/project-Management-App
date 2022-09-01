@@ -14,8 +14,8 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "npm run lint",
-      "prepush": "ng test --watch=false"
+      "pre-commit": "npm run lint",
+      "pre-push": "ng test --watch=false"
     }
   },
   "private": true,
@@ -45,7 +45,7 @@
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
     "eslint": "^8.18.0",
-    "husky": "^8.0.0",
+    "husky": "^8.0.1",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
